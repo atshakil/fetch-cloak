@@ -1,0 +1,29 @@
+{
+  "name": "fetch-cloak",
+  "version": "1.0.0",
+  "description": "A fetch API wrapper",
+  "main": "FetchCloak.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atshakil/fetch-cloak.git"
+  },
+  "keywords": [
+    "fetch",
+    "fetch api",
+    "fetch wrapper"
+  ],
+  "author": "Tahmid Shakil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atshakil/fetch-cloak/issues"
+  },
+  "homepage": "https://github.com/atshakil/fetch-cloak#readme",
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
+
