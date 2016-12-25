@@ -3,13 +3,21 @@
 A tiny fetch API wrapper
 
 ### Version
-1.0.1
+1.0.2
+
+### Installation
+
+```
+$ npm install --save fetch-cloak
+```
 
 ### Usage
 
 #### Example 1 (a simple post)
 
 ```
+import HTTP from 'fetch-cloak';
+
 HTTP("http://example.com/bloops").post({
   headers: {"token": "5d7ef932784b99a86a9121b5be7e0e9f"},
   success(data) {
@@ -107,3 +115,6 @@ The steps are simple.
 * Create your feature/bugfix branch
 * Make your changes
 * Create a pull request
+
+### License
+MIT
