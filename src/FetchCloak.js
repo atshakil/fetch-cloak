@@ -1,6 +1,6 @@
-import fetch from 'isomorphic-fetch';
+const fetch = require('isomorphic-fetch');
 
-export default url => {
+module.exports = url => {
   const init = (method, args) => Object.assign({
     method,
     mode: 'cors',

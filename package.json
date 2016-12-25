@@ -1,6 +1,6 @@
 {
   "name": "fetch-cloak",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A fetch API wrapper",
   "main": "src/FetchCloak.js",
   "scripts": {
